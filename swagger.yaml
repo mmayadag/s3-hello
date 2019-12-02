@@ -1,15 +1,13 @@
 swagger: "2.0"
 info:
-  title: "Lesson 1: Hello Microservice"
-  description: A microservice for simple messages.
-  termsOfService: https://www.udacity.com/legal
+  title: "Authentication Microservice"
+  description: A authentication microservice for generating tokens.
   contact:
-    name: Jarrod Parkes
-    url: http://jarrodparkes.com
-    email: jarrod@udacity.com
+    name: Murat Mayadag
+    url: https://github.com/mmayadag
   license:
     name: MIT
-    url: https://github.com/udacity/ios-short-s3-hello/blob/master/LICENSE
+    url: https://github.com/mmayadag/s3-auth/blob/master/LICENSE
   version: 1.0.0
 basePath: /
 schemes:
