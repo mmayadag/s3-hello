@@ -44,7 +44,6 @@ swift build
 
 ```bash
 # assuming you are located at /app
-.build/debug/hello
 ```
 
 **5] Test an Endpoint!**
@@ -52,3 +51,10 @@ swift build
 ```bash
 curl localhost:8081
 ```
+
+test secure end-point
+```bash
+curl -H "Authorization: Bearer ${TOKEN}"  localhost:8081/secure
+{"message":"Secure hello from Swift!"}%     
+```
+${TOKEN} change token
